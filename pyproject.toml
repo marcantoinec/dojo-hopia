@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hopia-dojo"
+version = "0.1.0"
+description = ""
+authors = ["marcantoinec <macoindreau@hopia.eu>"]
+readme = "README.md"
+packages = [{include = "hopia_dojo"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.4.3"
+mypy = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
