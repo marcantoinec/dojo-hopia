@@ -8,6 +8,8 @@ packages = [{include = "multi_currency"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pytest = "^8.0.0"
+mypy = "^1.7.1"
 
 
 [build-system]
