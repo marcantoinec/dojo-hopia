@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "multi-currency"
+version = "0.1.0"
+description = ""
+authors = ["marcantoinec <macoindreau@hopia.eu>"]
+readme = "README.md"
+packages = [{include = "multi_currency"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
